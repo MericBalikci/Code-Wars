@@ -1,9 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <RootNamespace>Code_Wars</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Katas\1 KYU" />
+      <Folder Include="Katas\2 KYU" />
+      <Folder Include="Katas\3 KYU" />
+      <Folder Include="Katas\4 KYU" />
+      <Folder Include="Katas\5 KYU" />
+      <Folder Include="Katas\6 KYU" />
+    </ItemGroup>
 
 </Project>

@@ -1,12 +1,19 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
 
-namespace Code_Wars
+/// <summary>
+/// 
+/// </summary>
+internal static class Program
 {
-    class Program
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="args"></param>
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        
     }
 }
