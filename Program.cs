@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// 
 /// </summary>
-internal static class Program
+public static class Program
 {
     /// <summary>
     /// 

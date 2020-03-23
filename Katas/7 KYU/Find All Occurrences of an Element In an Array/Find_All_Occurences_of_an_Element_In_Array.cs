@@ -1,12 +1,18 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
+﻿using System.Linq;
 
+/// <summary>
+/// 
+/// </summary>
 public class Find_All_Occurences_of_an_Element_In_Array
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="array"></param>
+    /// <param name="n"></param>
+    /// <returns></returns>
     public static int[] FindAll(int[] array, int n)
     {
-        List<int> list = array.ToList();
-        return Enumerable.Range(0,list.Count).Where(i => list[i] == n).ToArray();
+        return array.Where(x => array[x] == n).ToArray();;
     }
 }
