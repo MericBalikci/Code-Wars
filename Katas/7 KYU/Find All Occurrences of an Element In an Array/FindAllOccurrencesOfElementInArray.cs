@@ -3,7 +3,7 @@
 /// <summary>
 /// 
 /// </summary>
-public class Find_All_Occurences_of_an_Element_In_Array
+public class FindAllOccurrencesOfElementInArray
 {
     /// <summary>
     /// 

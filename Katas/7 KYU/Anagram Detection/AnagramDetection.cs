@@ -3,7 +3,7 @@
 /// <summary>
 /// 
 /// </summary>
-public static class Anagram_Detection
+public static class AnagramDetection
 {
     /// <summary>
     /// 
